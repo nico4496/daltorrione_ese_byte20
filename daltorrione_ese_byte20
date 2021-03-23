@@ -1,0 +1,16 @@
+#!/bin/bash
+	
+MIA_VAR=""
+i=0
+if [ $# -lt 1 ]
+
+then
+ echo "non posso fare l'es, esco"
+  exit 1
+fi
+
+while [ "$i" -lt "$1" ]
+	do
+        	echo "passaggio $i"
+		let i=i+1
+	done 
